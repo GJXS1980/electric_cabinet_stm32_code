@@ -1,0 +1,1 @@
+<DrawPage name="开机动画" bk_transparent="0" bk_color="0;0;0" bk_image="" size_option="0" width="800" height="480"><item name="VideoPlayer1" id="1" type="videoplayer" xOffset="0" yOffset="0" width="800" height="480" use="0" videofile="videos\0002.mp4" audio_disable="0" finish_notify="1" volume="80" playing="1" repeat="1"/></DrawPage>

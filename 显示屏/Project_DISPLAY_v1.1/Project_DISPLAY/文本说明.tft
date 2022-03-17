@@ -1,0 +1,20 @@
+<DrawPage name="文本说明" bk_transparent="0" bk_color="0;0;255" bk_image="Images\帮助\帮助单页.jpg" size_option="0" width="800" height="480"><item name="Text1" id="1" type="text" multi_lang="1" text_align="0" text_align_v="0" text="       在巡检时我们会对高压开关柜设计两种操作模式，就地和远方。将就地/远方切换开关旋至“就地”位时，所有的操作都按高压开关柜的日常操作进行。
+将就地/远方切换开关旋至“远方”位时，只通过开关柜面板下方的一个旋钮①和三个功能按钮②、③、④操作，通过开关柜内控制器设计的程序来输出各种模拟运行状态，
+面板上的液晶屏会显示一些运行参数。
+模拟故障运行状态有以下8种操作：
+1) 储能开关打开时，关闭①按下②：
+储能指示灯灭，分闸指示灯灭，合闸指示灯灭，液晶屏显示“分闸”，则开关柜为储能开关故障，分闸状态异常；
+2) 储能开关打开时，关闭①按下③：
+储能指示灯灭，分闸指示灯灭，合闸指示灯亮，液晶屏显示“保护跳闸”，则开关柜为储能开关故障，合闸状态异常；
+3) 储能开关打开时，关闭①按下④：
+储能指示灯灭，分闸指示灯灭，合闸指示灯亮，则开关柜为储能开关故障；
+4) 储能开关打开时，打开①按下②：
+储能指示灯亮，分闸指示灯灭，合闸指示灯灭，液晶屏显示“分闸”，则开关柜为分闸状态异常；
+能指示灯亮，分闸指示灯亮，合闸指示灯亮，检修指示灯灭，液晶屏显示“投入检修”，则开关柜为检修状态异常，合闸状态异常；" text1="" text2="" text3="" text4="" text5="" text6="" text7="" text8="" text9="" text10="" text11="" text12="" text13="" text14="" text15="" font="3" encode="0" show_bk="0" fore_color="0;0;0" bk_color="255;255;255" xOffset="3" yOffset="66" width="797" height="286" row_gap="0" col_gap="0"/><item name="Text2" id="2" type="text" multi_lang="1" text_align="0" text_align_v="0" text="5) 储能开关打开时，打开①按下③：
+储能指示灯亮，分闸指示灯灭，合闸指示灯亮，液晶屏显示“保护跳闸”，则开关柜为合闸状态异常；
+6) 储能开关打开时，打开①按下④：
+储能指示灯亮，分闸指示灯亮，合闸指示灯灭，检修指示灯灭，液晶屏显示“投入检修”，则开关柜为检修状态异常；
+7) 储能开关打开，检修压板投入时，打开①按下②：
+储能指示灯亮，分闸指示灯灭，合闸指示灯灭，检修指示灯灭，液晶屏显示“投入检修”，则开关柜为检修状态异常，分闸状态异常；
+8) 储能开关打开，检修压板投入时，打开①按下③：
+储能指示灯亮，分闸指示灯亮，合闸指示灯亮，检修指示灯灭，液晶屏显示“投入检修”，则开关柜为检修状态异常，合闸状态异常；" text1="" text2="" text3="" text4="" text5="" text6="" text7="" text8="" text9="" text10="" text11="" text12="" text13="" text14="" text15="" font="3" encode="0" show_bk="0" fore_color="0;0;0" bk_color="255;255;255" xOffset="4" yOffset="293" width="794" height="156" row_gap="0" col_gap="0"/><item name="Button1" id="3" type="button" button_type="0" focus="0" notify_disable="0" key_code="a" key_type="0" init_state="0" button_style="0" longpress_delay="0" url_down="" url_up="" popup_menu_id="0" input_text_id="0" switch="文本" switch_effect="2" switch_area="0" switch_area_left="0" switch_area_right="0" switch_area_top="0" switch_area_bottom="0" action="" xOffset="3" yOffset="3" width="105" height="54" cut_up="0" cut_up_offset_x="0" cut_up_offset_y="0" cut_down="0" cut_down_offset_x="0" cut_down_offset_y="0" custom_data_up="" custom_data_down="" external_data_up="" external_data_down="" external_data_delay="100" child_screen="0" need_login="0" login_password="888888" show_text_state="0" font="7" font_color_up="255;255;255" font_color_down="255;255;255" text_state_up="" text_state_down="" bind_variant="" show_condition="0" condition_variant="" condition_value="0"/></DrawPage>
